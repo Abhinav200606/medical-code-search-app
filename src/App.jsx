@@ -1,10 +1,12 @@
 import React from 'react'
 import SearchBar from './Components/SearchBar/SearchBar'
+import hospital from './assets/hospital.png';
+
 
 const App = () => {
   return (
     <div className="min-vh-100 d-flex flex-column align-items-center pt-5" 
-    style={{ backgroundImage: "url('./hospital.png')",
+    style={{ backgroundImage: `url(${hospital})`,
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat",
